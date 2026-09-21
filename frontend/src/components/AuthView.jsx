@@ -43,9 +43,9 @@ export const AuthView = () => {
   };
 
   const handleDemoUser = () => {
-    setEmail('yash@bank.com');
+    setEmail('deepak@bank.com');
     setPassword('123456');
-    setName('Yash Kashyap');
+    setName('Deepak Kumar');
   };
 
   return (
@@ -111,7 +111,7 @@ export const AuthView = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="e.g. Yash Kashyap"
+                  placeholder="e.g. Deepak Kumar"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="input-dark"
@@ -126,7 +126,7 @@ export const AuthView = () => {
               </label>
               <input
                 type="email"
-                placeholder="yash@bank.com"
+                placeholder="deepak@bank.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="input-dark"
@@ -181,7 +181,7 @@ export const AuthView = () => {
               className="text-xs text-slate-400 hover:text-cyan-400 flex items-center justify-center gap-1.5 mx-auto transition-colors cursor-pointer"
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Fill Demo Credentials (yash@bank.com)</span>
+              <span>Fill Demo Credentials (deepak@bank.com)</span>
             </button>
           </div>
 

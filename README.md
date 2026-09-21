@@ -4,6 +4,9 @@ A state-of-the-art, high-performance **Full-Stack Banking & Double-Entry Ledger 
 
 Featuring an immutable financial ledger engine, atomic transaction processing with idempotency key protection, automated email notifications (DEBIT, CREDIT, and Failure alerts), and a responsive, futuristic **Obsidian Glassmorphic Dark-Theme Frontend Dashboard**.
 
+**Project owner and maintainer:** Deepak Kumar  
+**GitHub repository:** [not-Deepak/fullstack-banking-system](https://github.com/not-Deepak/fullstack-banking-system)
+
 ---
 
 ## ✨ Features
